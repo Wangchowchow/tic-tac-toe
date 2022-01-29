@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    gap: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    background-color: palegoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+}
+.hover:hover{
+    transform: scale(1.03);
+    border: 4px solid sandybrown;
+    cursor: pointer;
+}
+#restartBtn{
+    padding: 5px;
+    background-color: tomato;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#restartBtn:hover{
+    transform: scale(1.1);
+}
