@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-This is a web page of a game, namely tic-tac-toe.
+This is a web page of tic tac toe game.
 ## Created With
 * HTML
 * CSS
